@@ -1,28 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-app="payday">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
   <title>Terms of Use — Time to Payday</title>
-  <style>
-    :root { color-scheme: light dark; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.55; max-width: 42rem; margin: 0 auto; padding: 2rem 1.25rem 4rem; color: #14241c; background: #f7faf8; }
-    @media (prefers-color-scheme: dark) { body { color: #e8f2ec; background: #0d1511; } a { color: #7dcea0; } }
-    h1 { font-size: 1.75rem; margin-bottom: 0.25rem; }
-    h2 { font-size: 1.15rem; margin-top: 1.75rem; }
-    .meta { opacity: 0.7; font-size: 0.95rem; margin-bottom: 1.5rem; }
-    nav a { margin-right: 1rem; }
-  </style>
+  <link rel="stylesheet" href="assets/legal.css" />
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="privacy.html">Privacy Policy</a>
-  </nav>
-  <h1>Terms of Use</h1>
-  <p class="meta">Time to Payday · Last updated: 26 October 2026</p>
-
-  <p>These Terms of Use (“Terms”) govern your use of the mobile application <strong>Time to Payday</strong> (the “App”), provided by <strong>Giuseppe Lisanti</strong> (“we”, “us”). By downloading or using the App you agree to these Terms.</p>
+  <div class="wrap">
+    <div class="topbar">
+      <a class="brand" href="index.html"><span class="mark" aria-hidden="true">P</span>Time to Payday</a>
+      <nav><a href="index.html">Home</a><a href="terms.html" aria-current="page">Terms</a><a href="privacy.html">Privacy</a></nav>
+    </div>
+    <header class="hero"><h1>Terms of Use</h1><p>Time to Payday · Last updated: 26 October 2026</p></header>
+    <main class="card">
+<p>These Terms of Use (“Terms”) govern your use of the mobile application <strong>Time to Payday</strong> (the “App”), provided by <strong>Giuseppe Lisanti</strong> (“we”, “us”). By downloading or using the App you agree to these Terms.</p>
 
   <h2>1. The service</h2>
   <p>Time to Payday is an offline-first personal budgeting companion that helps you count down to your next payday and estimate a remaining daily budget. It does not provide banking, investment, tax, or licensed financial advice. Figures shown in the App are estimates based on data you enter.</p>
@@ -65,5 +58,8 @@
   <h2>12. Contact</h2>
   <p>Questions about these Terms: <a href="mailto:peppelisanti85@gmail.com">peppelisanti85@gmail.com</a></p>
   <p>Developer: Giuseppe Lisanti · Bundle ID: com.giuseppelisanti.TimeToPayday</p>
+    </main>
+    <div class="footer"><span>© Giuseppe Lisanti</span><a href="https://peppelisanti.github.io/TimeToSub-legal/">Time to Sub legal</a></div>
+  </div>
 </body>
 </html>
